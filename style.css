@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto Condensed);
+
+body {
+    margin: 0;
+	background-color: #BAD4DB;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+.content{
+    overflow: auto;
+    padding-bottom: 200px;
+}
+
+/* Text at top of page, add logo */
+.toptext {
+    margin: 0;
+    padding: 0;
+    font-size: 36;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Nav bar */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34;
+    background-color: #124454;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: #85341B;}
+ul.topnav li.right {float: right}
+
+/*general container*/
+.containter {
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+/*home page containers*/
+.leftMenuHome {
+    margin-left: 15px;
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.rightContentHome {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+
+/*Contact us styling*/
+.contactForm{
+    vertical-align: middle;
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+label{
+    display: block;
+    margin-top: 25px;
+}
+
+/*fix footer from fixed to bottom of screen rather than sticky*/
+.footer {
+    position: relative;
+    margin-top: 200px; /* negative value of footer height */
+    height: 200px;
+    clear: both;
+    text-align: center;
+    align-content: center;
+}
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-style: oblique;
+    font-size: 12;
+}
+
+ul.footer li {
+    float: left;
+}
+
+ul.footer li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Table styling*/
+table{
+    background: #BAD4DB;
+    float: left;
+}
+table,thead,tbody,tfoot,tr, td,th{
+    text-align: center;
+    margin: auto;
+    border:1px solid #6d6d6d;
+    padding: 1rem;
+    width: 50%;
+}
+.table    { display: table; width: 50%; }
+.tr       { display: table-row;  }
+.thead    { display: table-header-group }
+.tbody    { display: table-row-group }
+.tfoot    { display: table-footer-group }
+.col      { display: table-column }
+.colgroup { display: table-column-group }
+.td, .th   { display: table-cell; width: 50%; }
+
+.table,
+.thead,
+.tbody,
+.tfoot,
+.tr,
+.td,
+.th{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+.table{
+    background: #fff;
+    margin: auto;
+    border:none;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.th{
+    font-weight: 700;
+    border:1px solid #6d6d6d;
+}
+.td{
+    font-weight: 300;
+    border:1px solid #6d6d6d;
+    border-top:none;
+}
+
+
+
+
