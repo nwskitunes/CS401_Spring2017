@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php require_once("dao.php"); ?>
 <?php
-$request_url = "http://api.songkick.com/api/3.0/metro_areas/24581/calendar.xml?apikey=FEeTWXeV0R1mAJUa";
+$request_url = "";
 $xml = simplexml_load_file($request_url) or die("load error on url or api key");
 $skdate = array();
 $venue = array();
